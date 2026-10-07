@@ -1,0 +1,11 @@
+    1  ./my_cat /etc/shadow
+    2  exit
+    3  passwd
+    4  exit
+    5  touch test.txt
+    6  ./my_chown root:root test.txt
+    7  exit
+    8  echo "374447"
+    9  exit
+   10  ls -l
+   11  history > ~/history.out
